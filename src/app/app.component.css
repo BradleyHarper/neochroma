@@ -1,0 +1,15 @@
+@font-face {
+  font-family:'SFAlien';
+  src: url("../assets/fonts/SFAlienEncounters.ttf") format('truetype');
+  font-weight: bold;
+}
+
+h1 {
+  font-family: SFAlien;
+  width: 100%;
+  height: 100%;
+}
+
+#main-container {
+  text-align: center;
+}
