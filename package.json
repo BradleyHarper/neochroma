@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "ng serve --aot --open=true --watch=true",
+    "serve": "ng serve --aot --open=true --watch=true",
     "build": "ng build"
   },
   "private": true,
