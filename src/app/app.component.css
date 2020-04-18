@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 @font-face {
   font-family:'SFAlien';
   src: url("../assets/fonts/SFAlienEncounters.ttf") format('truetype');
@@ -16,6 +11,11 @@ h1 {
 }
 
 #main-content {
+  background-image: url("../assets/images/sketchWallpaper.jpg");
+  /*transform: rotate(90deg);*/
+  /*background-repeat: no-repeat;*/
+  background-size: contain;
+  margin: 0;
   height: 100%;
   width: 100%;
   text-align: center;
@@ -23,6 +23,7 @@ h1 {
 
 /*remember... this container is inside content*/
 #main-content-container {
+  border: 5px solid rebeccapurple;
   background-image: url("../assets/images/synxWallpaper.png");
   background-size: contain;
   background-repeat: no-repeat;
